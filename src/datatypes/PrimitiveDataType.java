@@ -17,14 +17,16 @@ public class PrimitiveDataType {
 		int i = 30;
 		System.out.println(i);
 		
-		// byte (8byte-64bits) range(-128 to 127)
-		double d = 40;
-		System.out.println(d);
-		
-		
-		
 		
 		// NUMERICAL -> Floating Point
+		
+		// float (4byte-32bits) range()
+		float f = 40;
+		System.out.println(f);
+		
+		// double (8byte-64bits) range()
+		double d = 40;
+		System.out.println(d);
 	}
 
 }
