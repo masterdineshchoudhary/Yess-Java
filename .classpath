@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="basicofjava"/>
 	<classpathentry kind="src" path="oop"/>
+	<classpathentry kind="src" path="javaprograms"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
