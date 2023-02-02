@@ -1,0 +1,16 @@
+Abstraction id about hiding internal impl from outside users, only the functionoality will be provided to the user.
+In other words, users will have the information on what the object does, instead of how it does.
+Advantage - security
+It can be achieved by using - abstract class, interface
+
+INTERFACE:
+it is a blueprint of a class 
+it contains static var, abstract mtds
+variables are by default -> public, static, final
+methods are by default -> public abstract
+it is used to achieve abstraction and multiple inheritance
+it cannot be instantiated like abstract class
+since java8, we can have static and default methods
+since java8, we can have private methods
+interface provides loose coupling
+

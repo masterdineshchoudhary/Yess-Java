@@ -1,0 +1,3 @@
+In overriding we can only increase the scope (visibilty)
+
+private < deafult < protected < public

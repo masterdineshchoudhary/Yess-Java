@@ -1,0 +1,11 @@
+Static control flow :
+
+identification of static members from top to bottom
+execution of static variable assignments and static block from top to bottom
+execution of main method
+
+static control flow from parent to child (class)
+identification of static members from parent to child
+execution of static variable assignments and static block from parent to child
+execution of child class main method
+	

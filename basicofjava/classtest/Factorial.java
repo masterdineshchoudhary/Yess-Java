@@ -8,11 +8,12 @@ public class Factorial {
 		System.out.println("Enter Number : ");
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
+		int temp=num;
 		while(num>0) {
 			fact = fact * num;
 			num--;
 		}
-		System.out.print("\nThe factorial of given number is "+fact);
-		
+		System.out.print("factorial of given number "+temp+" is "+fact);
+		scanner.close();
 	}
 }

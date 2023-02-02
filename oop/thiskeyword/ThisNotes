@@ -1,0 +1,8 @@
+This Keyword:
+can be used as reference variable
+this always refers to the current instance of the class 
+this is used to refer current class instance var & mtds
+this can be passed as an arg in mtd call
+this can be passed as an arg in the constructor call
+this can also be returned from the mtd
+this() is used to call current class constructor

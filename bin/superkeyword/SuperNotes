@@ -1,0 +1,3 @@
+Super keyword in java is a reference variable that is used to refer immediate parent class object.
+super is used to invoke immediate parent class methods
+super() is used to invoke parent class constructor
