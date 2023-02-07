@@ -1,0 +1,23 @@
+there are total 5 ways to create object in java:
+
+1. using new operator -> Test t = new Test();
+2. newInstance() method -> Test t = (Test) Class.forName("Test").newInstance();
+3. Factory Methods -> Runtime r = Runtime.getRuntime(); -> returns same class obj
+					  Dateformat df = Dateformat.getInstance();
+4. Clone method -> Test1 t1 = new Test1();
+				   Test2 t2 = (Test) t1.clone();
+5. Using Deserialization :
+	fileInputStream fis = new fileInputStream("abc.ser");
+	ObjectInputStream ois = new ObjectInputStream(fis);
+	Test t = (Test) ois.readObject();
+	
+	
+		Object:
+		String
+		StringBuffer
+		StringBuilder
+		Number(Integer, Long, Short, Boolean, Double, etc.)
+		Throwable(Exception, Error)			
+		
+		Methods (11 mtds):
+		
