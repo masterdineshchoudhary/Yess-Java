@@ -29,5 +29,30 @@ public class StringMethods {
 //		m7 : public int length()
 		System.out.println(s4.length());
 		
+		String[] s = {"A", "AA", "AAA"};
+		System.out.println(s.length);
+		System.out.println(s[1].length());
+		
+//		m8 : public String replace(char old ch, char new ch)
+		String s5 = "abcde";
+		System.out.println(s5.replace("a", "j"));
+		
+//		m9 : public String toLowerCase()
+//		m10 : public String toUpperCase()
+		String s6 = "beautiful";
+		String s7 = "GREAT";
+		System.out.println(s6.toUpperCase());
+		System.out.println(s7.toLowerCase());
+		
+//		m11 : public String trim();
+		String s8 = " Hello World ";
+		System.out.println(s8.trim());
+		System.out.println(s8.replaceAll(" ",""));
+		
+//		m12 : public int jindexOf(char ch) - returns index of first occ of char
+		String s9 = "ababa";
+		System.out.println(s9.indexOf("a"));
+		System.out.println(s9.lastIndexOf("a"));
+		
 	}
 }
