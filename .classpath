@@ -8,5 +8,7 @@
 	<classpathentry kind="src" path="basicofjava"/>
 	<classpathentry kind="src" path="oop"/>
 	<classpathentry kind="src" path="javaprograms"/>
+	<classpathentry kind="src" path="array"/>
+	<classpathentry kind="src" path="Exception"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

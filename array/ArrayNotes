@@ -1,0 +1,14 @@
+Array:
+Array is an indexed collection of fixed no of homogeneous data elements
+main adv- we can represent a huge no of data using a single variable
+main disadv- we cannot change the size of array
+
+representation :
+1d array -> int[] x; int x[]; int []x;
+2d array -> int[][] x; int x[][]; int[] []x; int []x[]; int [] x[]; int [][]x;
+
+array creation :
+every array in java is an object hence we can create array using new operator : int[] x = new int[3];
+the size of array must be specified by an integer value instead of other data types
+we can also specify the size by '0' value
+if we try to specify the size with negative value then we will get runtime exception -> NegativeArraySizeException

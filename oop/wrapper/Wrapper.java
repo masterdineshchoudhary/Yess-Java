@@ -33,7 +33,7 @@ package wrapper;
 
 // methods:
 // 1. ValueOf()  -> is used to create wrapper object for the given Primitive of String
-// 2. XXXValue() -> 
+// 2. xxxValue() -> methods to get the primitive for the given Wrapper Object
 // 3. parseXXX() -> it is static mtd and it is used to get primitive data type from given string
 // 4. toString() -> wrapper object or primitives into string
 
@@ -84,13 +84,13 @@ public class Wrapper {
 		// public static String toString(primitive p);
 		String s1 = Integer.toString(10);
 		System.out.println(s1);
-		System.out.println(string2.getClass().getName());
+		System.out.println(s1.getClass().getName());
 		String s2 = Boolean.toString(true);
 		System.out.println(s2);
-		System.out.println(string2.getClass().getName());
+		System.out.println(s2.getClass().getName());
 		String s3 = Character.toString('a');
 		System.out.println(s3);
-		System.out.println(string2.getClass().getName());
+		System.out.println(s3.getClass().getName());
 		
 		
 	
