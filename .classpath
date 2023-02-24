@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="javaprograms"/>
 	<classpathentry kind="src" path="array"/>
 	<classpathentry kind="src" path="Exception"/>
+	<classpathentry kind="src" path="File Handling"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

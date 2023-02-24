@@ -39,7 +39,8 @@ public class Throw extends RuntimeException {
 //		for partially checked exception it will give no error
 		try {
 			System.out.println("Hello");
-		} catch (IOException e) {  
+//		} catch (IOException e) {  
+		} catch (Exception e) {  
 			e.printStackTrace();
 		}
 	}

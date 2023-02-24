@@ -16,6 +16,5 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "\n"+address.streetNo+" - "+address.city+" - "+address.state+" - "+address.country;
-		
 	}
 }
